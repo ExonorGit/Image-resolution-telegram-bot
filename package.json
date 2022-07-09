@@ -1,0 +1,23 @@
+{
+  "name": "image-resolution-telegram-bot",
+  "version": "1.0.0",
+  "description": "Simple Telegram bot for changing images resolution",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "image-size": "^1.0.1",
+    "sharp": "^0.30.7",
+    "telegraf": "^4.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
